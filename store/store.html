@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IES Services</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <style>
+        body, html {height: 100%}
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+        .menu {display: none}
+        .bgimg {
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("https://www.commbox.io/wp-content/uploads/2019/10/11-1-1024x600.jpg");
+          min-height: 90%;
+        }
+    </style>
+</head>
+
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="ies-top ies-hide-small">
+  <div class="ies-bar ies-xlarge ies-black ies-opacity ies-hover-opacity-off" id="myNavbar">
+    <a href="#" class="ies-bar-item ies-button">HOME</a>
+    <a href="#menu" class="ies-bar-item ies-button">RATE CARD</a>
+    <a href="#about" class="ies-bar-item ies-button">ABOUT SERVICES</a>
+    <a href="#myMap" class="ies-bar-item ies-button">BOOK SERVICES</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg ies-display-container ies-grayscale-min" id="home">
+  <div class="ies-display-bottomleft ies-padding">
+    <span class="ies-tag ies-xlarge">Service Timing: 10am to 12pm</span>
+  </div>
+  <div class="ies-display-middle ies-center">
+    <span class="ies-text-black ies-hide-small" style="font-size:100px">cheap<br>SERVICES OF IES</span>
+    <span class="ies-text-black ies-hide-large ies-hide-medium" style="font-size:60px"><b>cheap<br>SERVICES OF IES</b></span>
+    <p><a href="#menu" class="ies-button ies-xxlarge ies-black">Let Me See The Rates of Services</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="ies-container ies-black ies-padding-64 ies-xxlarge" id="menu">
+  <div class="ies-content">
+  
+    <h1 class="ies-center ies-jumbo" style="margin-bottom:64px">THE RATE CARD</h1>
+
+    <div class="ies-row ies-center ies-border ies-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Quick Booking');" id="myLink">
+        <div class="ies-col s4 tablink ies-padding-large ies-hover-red">Quick Booking</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Fan');" id="myLink">
+        <div class="ies-col s4 tablink ies-padding-large ies-hover-red">Fan</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Lights');">
+        <div class="ies-col s4 tablink ies-padding-large ies-hover-red">Lights</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'MCB & Fuse');">
+        <div class="ies-col s4 tablink ies-padding-large ies-hover-red">MCB & Fuse</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Appliances');">
+        <div class="ies-col s4 tablink ies-padding-large ies-hover-red">Appliances</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Looking else?');">
+        <div class="ies-col s4 tablink ies-padding-large ies-hover-red">Looking else?</div>
+      </a>
+    </div>
+
+    <div id="Quick Booking" class="ies-container menu ies-padding-32 ies-white">
+      <h1><b>Boook An Electrician</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹199</span></h1>
+      <p class="ies-text-grey">■ Book an expert Electrician for on-site issue inspection.<br> ■ Actual price based on scope of work & spares willl be charged as per rate.</p>
+      <hr>   
+      <h1><b>Book A Plumber</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹199</span></h1>
+      <p class="ies-text-grey">■ Book an expert Plumber for on-site issue inspection.<br> ■ Actual price based on scope of work & spares willl be charged as per rate.</p>
+      <hr>
+      <h1><b>Book A Carpenter</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹199</span></h1>
+      <p class="ies-text-grey">■ Book an expert Carpenter for on-site issue inspection.<br> ■ Actual price based on scope of work & spares willl be charged as per rate.</p>
+      <hr>
+      <h1><b>Book A Welder</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹199</span></h1>
+      <p class="ies-text-grey">■ Book an expert Welder for on-site issue inspection.<br> ■ Actual price based on scope of work & spares willl be charged as per rate.</p>
+      <hr>
+      <h1><b>Book A Painter</b> <span class="ies-tag ies-red ies-round">Hot!</span><span class="ies-right ies-tag ies-dark-grey ies-round">₹199</span></h1>
+      <p class="ies-text-grey">■ Book an expert Painter for on-site issue inspection.<br> ■ Actual price based on scope of work & spares willl be charged as per rate.</p>
+      <hr>
+      <h1><b>Book A Roofer</b> <span class="ies-tag ies-grey ies-round">New</span><span class="ies-right ies-tag ies-dark-grey ies-round">₹199</span></h1>
+      <p class="ies-text-grey">■ Book an expert Roofer for on-site issue inspection.<br> ■ Actual price based on scope of work & spares willl be charged as per rate.</p>
+    </div>
+
+    <div id="Fan" class="ies-container menu ies-padding-32 ies-white">
+        <h1><b>Fan repair</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹189</span></h1>
+        <p class="ies-text-grey">■ Repair of celiling, wall or exhaust fan.</p>
+        <hr>   
+        <h1><b>Ceiling fan regulator replacement</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹79</span></h1>
+        <p class="ies-text-grey">■ Replacement of one ceiling fan regulator.</p>
+        <hr>
+        <h1><b>Ceiling fan Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹129</span></h1>
+        <p class="ies-text-grey">■ Installation of ceiling fan.</p>
+        <hr>
+        <h1><b>Exhaust fan Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹129</span></h1>
+        <p class="ies-text-grey">■ Installation of Exhaust fan.</p>
+        <hr>
+        <h1><b>Wall Fan Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹199</span></h1>
+        <p class="ies-text-grey">■ Installation of one wall fan.</p>
+        <hr>
+        <h1><b>Decorative Ceiling fan Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹429</span></h1>
+        <p class="ies-text-grey">■ Installation of fan with in-built light, music etc.</p>
+        <hr>
+        <h1><b>Fan Replacement</b> <span class="ies-tag ies-red ies-round">Hot!</span><span class="ies-right ies-tag ies-dark-grey ies-round">₹199</span></h1>
+        <p class="ies-text-grey">■ Replacement of Ceiling, exhaust or wall fan.</p>
+        <hr>
+        <h1><b>Fan Uninstallation</b> <span class="ies-tag ies-grey ies-round">New</span><span class="ies-right ies-tag ies-dark-grey ies-round">₹129</span></h1>
+        <p class="ies-text-grey">■ Uninstallation of ceiling, exhaust or wall fan.</p>
+      </div>
+  
+    <div id="Lights" class="ies-container menu ies-padding-32 ies-white">
+      <h1><b>Bulbs Installation</b> <span class="ies-tag ies-grey ies-round">Popular</span> <span class="ies-right ies-tag ies-dark-grey ies-round">₹129</span></h1>
+      <p class="ies-text-grey">■ Installation of up to five bulbs.</p>
+      <hr>
+      <h1><b>Bulb Holder Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹119</span></h1>
+      <p class="ies-text-grey">■ Instalation of One Bulb Holder.</p>
+      <hr>
+      <h1><b>Wall light Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹169</span></h1>
+      <p class="ies-text-grey">■ Installation of one decorative wall light.</p>
+      <hr>
+      <h1><b>False Ceiling Light Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹169</span></h1>
+      <p class="ies-text-grey">■ Installation of one false ceiling light.</p>
+      <hr>
+      <h1><b>Ceiling Light Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹169</span></h1>
+      <p class="ies-text-grey">■ Installation of one ceiling light.</p>
+      <hr>
+      <h1><b>Bathroom Lights Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹169</span></h1>
+      <p class="ies-text-grey">■ Installation of one Bathroom Light.</p>
+      <hr>
+      <h1><b>Festivel Lights Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹219</span></h1>
+      <p class="ies-text-grey">■ Installation of Festive Lights.</p>
+      <hr>
+      <h1><b>Tubelight Installation/Repair</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹110</span></h1>
+      <p class="ies-text-grey">■ Installation of one tube light.</p>
+      <hr>
+      <h1><b>Replace CFL to LED</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹169</span></h1>
+      <p class="ies-text-grey">■ Replacement of a CFL bulb/tube light to a LED/tube light.</p>
+    </div>
+
+
+    <div id="MCB & Fuse" class="ies-container menu ies-padding-32 ies-white">
+      <h1><b>Meter Installation</b> <span class="ies-tag ies-grey ies-round">In New House</span><span class="ies-right ies-tag ies-dark-grey ies-round">₹499</span></h1>
+      <p class="ies-text-grey">■ Installation of permanant meter only at the newly constructed house.</p>
+      <hr>
+      <h1><b>Phase Changeover switch installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹329</span></h1>
+      <p class="ies-text-grey">■ Installation of one 3-phase changeover switch.</p>
+      <hr>
+      <h1><b>MCB fuse replacement</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹119</span></h1>
+      <p class="ies-text-grey">■ Replacement of one MCB fuse.</p>
+      <hr>
+      <h1><b>Single pole MCb Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹119</span></h1>
+      <p class="ies-text-grey">■ Installation of single pole MCB.</p>
+      <hr>
+      <h1><b>Sub meter installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹279</span></h1>
+      <p class="ies-text-grey">■ Installation of one sub-meter with minor wiring work.</p>
+    </div>
+
+    <div id="Appliances" class="ies-container menu ies-padding-32 ies-white">
+        <h1><b>TV installation(up to 48 inches)</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹499</span></h1>
+        <p class="ies-text-grey">■ Installation or Uninstallation of one TV Set.</p>
+        <hr>   
+        <h1><b>TV installation(above 48 inches)</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹599</span></h1>
+        <p class="ies-text-grey">■ Installation or Uninstallation of one TV Set.</p>
+        <hr>
+        <h1><b>TV Uninstallation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹179</span></h1>
+        <p class="ies-text-grey">■ Uninstallation of one TV Set.</p>
+        <hr>
+        <h1><b>Mini home theater Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹279</span></h1>
+        <p class="ies-text-grey">■ Installation of a mini home theatre with wiring from TV to speaker..</p>
+        <hr>
+        <h1><b>Stabilizer Installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹179</span></h1>
+        <p class="ies-text-grey">■ Installation of one Stabilizer Unit.</p>
+        <hr>
+        <h1><b>Room Heater Repair</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹279</span></h1>
+        <p class="ies-text-grey">■ Replacement of the heater's glass rod and other heater issues.</p>
+        <hr>
+        <h1><b>WiFi CCTV Installation</b> <span class="ies-tag ies-red ies-round">Hot!</span><span class="ies-right ies-tag ies-dark-grey ies-round">₹399</span></h1>
+        <p class="ies-text-grey">■ Installation of 1 WiFi CCTV.<br>■ Spare parts are sourced at an additional cost.</p>
+        <hr>
+        <h1><b>Home Video Bell</b> <span class="ies-tag ies-grey ies-round">New</span><span class="ies-right ies-tag ies-dark-grey ies-round">₹599</span></h1>
+        <p class="ies-text-grey">■ Installation of one home video bell.</p>
+      </div>
+
+
+    <div id="Looking else?" class="ies-container menu ies-padding-32 ies-white">
+        <h1><b>Custom repair/installation</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹179</span></h1>
+        <p class="ies-text-grey">■ Book an expert electrician for on-site issue inspection.<br>■ Actual prices based on scope of work and rate card.</p>
+        <hr>
+        <h1><b>At home Consultation for major work</b> <span class="ies-right ies-tag ies-dark-grey ies-round">₹149</span></h1>
+        <p class="ies-text-grey">■ Includes inspection charges.<br>■ Actual prices based on scope of work and rate card.</p>
+      </div><br>
+  
+
+</div>
+</div>
+
+<!-- About Container -->
+<div class="ies-container ies-padding-64 ies-red ies-grayscale ies-xlarge" id="about">
+  <div class="ies-content">
+    <h1 class="ies-center ies-jumbo" style="margin-bottom:64px">About Services</h1>
+    <p>The Instant Electronics Services (IES) was founded in Poornima College of Engineering, Jaipur by Five members Kushal Mittal, Mohit Singh Rathore, Lakshaya Khandelwal, Krishna Soni and Kartik Sharma in year 2022. <br>The <strong>Payment</strong> system of the company is very simple which is after the service pay it online to the available Teammate who have come to your place to provide the service. .</p>
+    <p><strong>The Guarantor?</strong>  IES himself<img src="https://pbs.twimg.com/profile_images/1599762698438414337/QxqMCysO_400x400.jpg" style="width:150px" class="ies-circle ies-right" alt="Chef"></p>
+    <p>We are proud of Our Quality Services and the Skilled Teammates.</p>
+    <p>We provide Service within 10hrs at an Instant Request.</p>
+    <img src="https://storage.googleapis.com/nextivawebsites-wordpressfiles-voip/var/www/virtual/nextiva.com/voip/customer-service-examples-feature-image2.png" style="width:100%" class="ies-margin-top ies-margin-bottom" alt="Restaurant">
+    <h1><b>Servicing Providing Hours</b></h1>
+    
+    <div class="ies-row">
+      <div class="ies-col s6">
+        <p>◈ Monday :: 7:00am to 12:00pm  and 4:00pm to 9:00pm</p>
+        <p>◈ Tuesday :: 7:00am to 12:00pm  and 4:00pm to 9:00pm</p>
+        <p>◈ Wednesday :: 7:00am to 12:00pm  and 4:00pm to 9:00pm</p>
+        <p>◈ Thursday :: 7:00am to 12:00pm  and 4:00pm to 9:00pm</p>
+        <p>◈ Friday :: 7:00am to 12:00pm  and 4:00pm to 9:00pm</p>
+    </div>
+      <div class="ies-col s6">
+        <p>◈ Saturday :: 9:00am to 6:00pm</p>
+        <p>◈ Sunday :: 6:00am to 2:00pm</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="https://www.collegebatch.com/info/wp-content/uploads/2018/07/Poornima-College-of-Engineering-Campus-Jaipur.jpg" class="ies-image ies-greyscale" style="width:100%;" id="myMap">
+
+<!-- Book Services -->
+<div class="ies-container ies-padding-64 ies-blue-grey ies-grayscale-min ies-xlarge">
+  <div class="ies-content">
+    <h1 class="ies-center ies-jumbo" style="margin-bottom:64px">Book Services</h1>
+    <p>Find our services in Jaipur and nerr it (50 km radius) or call us at xxxxxxxx-xxxxxxx.</p>
+    <p><span class="ies-tag">FYI!</span> We offer full-service at home, officies , factories , restautants , bars, etc. for any type of repair, large or small. We understand your needs and we will provide our best services to satisfy you and specialy your equipment which is injured.<br> Payment will we done online after the completion of the Service.</p>
+    <p class="ies-xxlarge"><strong>Book</strong> your appointment and send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="ies-input ies-padding-16 ies-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="ies-input ies-padding-16 ies-border" type="number" placeholder="Mobile Number" required name="Mobile Number"></p>
+      <p><input class="ies-input ies-padding-16 ies-border" type="text" placeholder="Address" required name="Address"></p>
+      <p><input class="ies-input ies-padding-16 ies-border" type="text" placeholder="Name of the Service Choosen " required name="Service Name"></p>
+      <p><input class="ies-input ies-padding-16 ies-border" type="datetime-local" placeholder="Date & Time of Service" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="ies-input ies-padding-16 ies-border" type="text" placeholder="Message / Special requirements" required name="Message"></p>
+      <p><button class="ies-button ies-light-grey ies-block" type="submit">BOOK APPOINTMENT</button></p>
+    </form>
+  </div>
+</div>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" ies-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " ies-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
